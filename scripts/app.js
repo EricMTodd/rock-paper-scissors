@@ -61,6 +61,7 @@ const playRound = (computerChoice, userChoice) => {
 		computerScore++
 	}
 
+	// Assess win condition
 	if (computerScore < 3 && userScore < 3) {
 		playRound(getComputerChoice(), getUserChoice())
 	} else {
