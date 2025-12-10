@@ -2,35 +2,35 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Rock Paper Scissors</title>
+		<title>Rock, Paper, Scissors!</title>
 		<link rel="stylesheet" href="styles/main.css">
 		<script src="scripts/app.js" defer></script>
 	</head>
 	<body>
-		<nav>Rules | Play</nav>
+		<nav>
+			<h1>Rock, Paper, Scissors!</h1>
+		</nav>
 		<main>
-			<h1>Rock Paper Scissors</h1>
 			<h3>The first player to 3 points wins!</h3>
 			<div class="container">				
-				<div class="computer">
+				<div class="player-container">
 					<h2>Computer</h2>
-					<div class="computer-score">Score: 0</div>
-					<div>Computer choice</div>
+					<div class="display-computer-score"></div>
 				</div>
-				<div class="player">
+				<div class="player-container">
 					<h2>Player</h2>
-					<div>Score: 0</div>
-					<div>Player choice</div>
-					<div>
-						<button class="rock-button">Rock</button>
-						<button class="paper-button">Paper</button>
-						<button class="scissors-button">Scissors</button>
-						<br>
-						<button class="lock-in-button">Lock in selection</button>
-					</div>
+					<div class="display-player-score"></div>
 				</div>
 			</div>
+			<div class="buttons-container">
+				<div class="display-player-choice"></div>	
+				<button class="rock-button">Rock</button>
+				<button class="paper-button">Paper</button>
+				<button class="scissors-button">Scissors</button>
+				<br>
+				<button class="lock-in-selection-button">Lock in selection</button>
+			</div>
 		</main>
-		<footer>&copy 2025 | <a href="https://github.com/EricMTodd/">Eric M. Todd</a></footer>
+		<footer>&copy 2025 | <a href="https://github.com/EricMTodd/" target="_blank">Eric M. Todd</a></footer>
 	</body>
-</htmml
+</html>

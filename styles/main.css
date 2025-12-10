@@ -14,6 +14,7 @@ nav {
 	background-color: black;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	padding: 0 15px;
 	position: sticky;
 	top: 0;
@@ -40,8 +41,24 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: goldenrod;
+}
+
+a:active {
+	color: white;
+}
+
 .container {
 	display: flex;
 	justify-content: space-evenly;
 	width: 100%;
+}
+
+.buttons-container {
+	text-align: center;
+}
+
+.player-container {
+	text-align: center;
 }
